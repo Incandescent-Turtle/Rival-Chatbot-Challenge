@@ -1,5 +1,7 @@
-exports.parse_str_list = parse_str_list
-exports.parse_num_list = parse_num_list
+module.exports = {
+	parse_str_list,
+	parse_num_list
+}
 function parse_str_list(message) {
 	let arr = message.split(":")[1].split(",")
 	arr = arr.map(str => {
