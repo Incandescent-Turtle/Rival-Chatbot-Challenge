@@ -1,11 +1,14 @@
 {
   "name": "rival-chatbot-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a chatbot program to communicate with the rival chatbot",
   "main": "api-wrapper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Rory Macdonald",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
